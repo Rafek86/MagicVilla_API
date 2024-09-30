@@ -9,7 +9,6 @@ namespace MagicVilla_VillaAPI.Model.DTOs
         [Required]
         [MaxLength(30)]
         public string Name { get; set; }
-
         public DateTime CreatedTime { get; set; }
     }
 }
